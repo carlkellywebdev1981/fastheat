@@ -1,0 +1,221 @@
+/* 
+
+Mediaqueries Contents: 
+
+01. Global
+02. Notebook
+03. Tablet
+04. Small Device
+05. Mobile Device
+
+
+*/
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+/* 01. Global Responsive Styles */
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+/* 02. Notebook Device Styles */
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1280px) {
+    /* End of Notebook Mediaqueries */
+}
+
+@media screen and (max-width: 1180px) {
+    /* End of Notebook Mediaqueries */
+
+    .section-ind p, .section-call p, .section-serv p, .section-safe p {
+        margin-top: 50px;
+    }
+
+/* End of Notebook Mediaqueries */
+
+
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* 03. Large Tablet Device Styles */
+
+/* ----------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 990px) {
+    .icon-section h4 {
+        font-size: 16px;
+    }
+    #navbar li a {
+    font-size: medium;
+}
+    .nav-container {
+        width: 100%;
+    }
+    
+    .icon-section,
+    .welcome {
+        height: 100%!important;
+    }
+    
+    .jumboh1 {
+        margin-top: 150px;
+    }
+    
+    #navbar .navbar-nav li a {
+        font-size: 16px!important;
+    }
+    /* End of Large Tablet Mediaqueries */
+}
+@media screen and (max-width: 900px) {
+    .logo {
+        margin-left: 0px;
+    }
+    
+    .navbar-right {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 870px) {
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    
+    .phone-area p {
+        display: none;
+    }
+    
+    .phone-area {
+        padding-top: 30px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* 03. Tablet Device Styles */
+
+/* ----------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .jumboh1 {
+        margin-top: 280px;
+    }
+    
+    #navbar li a {
+        font-size: 14px;
+    }
+    
+    .companyLogo {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .welcome p,
+    .section-com p,
+    .section-ind p {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .jumboh1 {
+        font-size: 55px;
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .jumboh1 {
+        margin-top: 120px;
+    }
+    
+    /*.jumbotron {
+        height: 100%;
+    }*/
+    /* End of Tablet Mediaqueries */
+}
+@media screen and (max-width: 600px) {
+    /* End of Tablet Mediaqueries */
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* 04. Small Device Styles */
+
+/* ----------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 500px) {
+    p {
+        text-align: justify!important;
+    }
+    
+    .section-com {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner1.jpg);
+        width: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .wpc-title-q {
+        margin-left: 0px;
+    }
+    .quick-links ul {
+        padding-left: 0px;
+    }
+    .email-a {
+        display: none;
+    }
+    .icon-row {
+        display: none;
+    }
+    .phone-a {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .jumboh1 {
+        font-size: 45px;
+        margin-top: 110px;
+    }
+    
+    .gasSafe {
+        height: 100px;
+    }
+    
+    .welcome p,
+    .section-com p,
+    .section-ind p {
+        text-align: center;
+    }
+    
+    .jumbotron {
+        height: 100vh;
+    }
+    
+    
+    /* End of Small Device Mediaqueries */
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* 05. Mobile Device Styles */
+
+/* ----------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 400px) {
+    .jumboh1 {
+        margin-top: 100px;
+        font-size: 35px;
+    }
+    /* End of Mobile Device Mediaqueries */
+}
+@media screen and (max-width: 350px) {
+    .jumboh1 {
+        margin-top: 60px;
+        font-size: 35px;
+    }
+    /* End of Mobile Device Mediaqueries */
+}

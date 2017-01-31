@@ -1,0 +1,626 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 20px;
+    font-family: Lato;
+    width:100%;
+    overflow-x:hidden;
+    font-family: "Lato", "Arial", sans-serif;
+    background-color: #fff;
+}
+
+/*******  index  *******/
+
+/*******  01 reusables  *******/
+/*******  02 navbar  *******/
+/*******  03 jumbrotron  *******/
+/*******  04 welcome  *******/
+/*******  05 icons  *******/
+/*******  06 commercial  *******/
+/*******  07 industrial  *******/
+/*******  08 callouts  *******/
+/*******  09 servicing  *******/
+/*******  10 saftey checks  *******/
+/*******  11 footer  *******/
+
+
+
+
+/*******  01 reusables  *******/
+/* Gradient transparent - color - transparent */
+hr {    
+border: 0;
+    height: 2px!important;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red, rgba(0, 0, 0, 0));
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+h2 {
+    padding-top: 30px;
+}
+#topcontrol {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.icon-section, .welcome {
+    padding-bottom: 50px;
+}
+p {
+    font: 400 17px Lato,sans-serif;
+    color: #606060;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+section {
+    padding-bottom: 50px;
+}
+section p {
+    color: #333;
+    margin-top: 50px;
+    text-align: left;
+}
+a:hover {
+    text-decoration: none;
+}
+span {
+    color: red;
+}
+
+/*******  02 navbar  *******/
+#navbar {
+    margin-top: 10px;   
+}
+
+#navbar li a {
+    color: #fff;
+}
+.phone-area {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0px;
+}
+.phone-area a {
+    color: #999;
+    margin-top: -25px;   
+}
+.phone-area a:hover {
+    text-decoration: none;
+}
+.phone-area p {
+    color: #999;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 17px;
+   
+}
+
+.navbar-toggle .icon-bar {
+    width: 40px;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.phone-a {
+    float: left;
+    margin-left: 20px;
+}
+.email-a {
+    float: right;
+    margin-right: 20px;
+}
+.nav li a:hover {
+    background-color: transparent!important;
+    color: red!important;
+}
+.nav li a:focus {
+    background-color: transparent;
+}
+.navbar-brand img {
+    height: 70px;
+    margin-top: -10px;
+    
+}
+
+
+
+
+/*******  03 jumbrotron  *******/
+.jumbotron {
+     background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner4.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner4.jpg);
+    height:100vh;
+    width:auto;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.gasSafe-row {
+    bottom: 0;
+} 
+
+.gasSafe {
+    position: absolute;
+    float: right;
+    height: 140px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.jumboh1 {
+    color: #fff!important;
+    margin-top: 180px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*******  04 welcome  *******/
+.welcome {
+    background: linear-gradient(135deg, rgb(65, 131, 245), rgb(44, 62, 80));;
+}
+.welcome h2 {
+    color: #fff;
+}
+.welcome p {
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center!important;
+}
+.welcome hr {
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #333, rgba(0, 0, 0, 0));
+}
+.welcome span {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+/*******  05 icons  *******/
+#icon-sections {
+    background-color: #fff;
+    padding-top: 0px;
+}
+.icon-section h2 {
+    text-align: center;
+    color: #666;
+    
+}
+
+
+.icon-section i {
+    color: red;
+}.icon-section i:hover {
+    opacity: .6;
+}
+.icon-section i {
+    color: red;
+}
+.icon-section h4 {
+    color: #666;
+    
+}
+.icon-section hr {
+    margin-bottom: 50px;
+}
+.companyLogo {
+    width: 100%;
+    margin: 10px;
+    
+}
+.logo-row1 {
+    margin-top: 50px;
+}
+.logo-row2 {
+    margin-top: 20px;
+}
+
+/*******  06 commercial *******/
+.section-com {
+    background-color: #f8f6f6;
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner.jpg);
+    width:auto;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+.section-com p {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.section-com h2 {
+    color: #fff;
+}
+/*******  07 industrial *******/
+.section-ind {
+    padding-bottom: 50px;
+}
+.section-ind p {
+    color: #333;
+    margin-top: 80px;
+    
+}
+.ind-img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+
+/*******  08 callouts *******/
+.section-call {
+    background-color: #e4e4e4;
+}
+.call-img {
+    width: 75%;
+    height: auto;
+    margin-top: 60px;
+}
+.section-call p {
+    color: #333;
+    margin-top: 100px;
+    text-align: right;
+    
+}
+
+/*******  09 servicing *******/
+
+.serv-img {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+.section-serv p {
+    
+    margin-top: 65px;
+    
+    
+}
+
+/*******  10 saftey checks *******/
+.section-safe {
+    background-color: #e4e4e4;
+}
+.safe-img {
+    width: 70%;
+    height: auto;
+    margin-top: 60px;
+}
+.section-safe p {
+    text-align: right;
+    margin-top: 65px;
+    
+    
+}
+
+/*******  11 footer  *******/
+
+footer {
+    text-align: left;
+}
+.lb-outerContainer {
+    background-color: #2c3e50!important;
+}
+
+.wpc-contant li .fa {
+      color: #eb4223!important;
+    font-size: 25px!important;
+}
+
+.wpc-footer-copyright a {
+    color: #eb4223;
+}
+.wpc-footer {
+    background-color: #2c3e50;
+}
+.footer-p {
+    font: 400 13px 'Noto Sans',sans-serif;
+    color: #ddd;
+    border-bottom: 1px solid rgba(233,233,233,0.1);
+    padding-bottom: 17px;
+    margin-bottom: 15px;
+    letter-spacing: .4px;
+}
+.wpc-contant a {
+    color: #ddd!important;
+}
+.wpc-contant a:hover {
+    text-decoration: none;
+}
+.post-info-content span {
+    color: #ddd;
+}
+.quick-links a {
+    text-decoration: none;
+    font: 400 14px Lato,sans-serif;
+    color: #d0cece;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+    
+}
+.quick-links li {
+    margin-bottom: 15px;
+}
+.quick-links {
+    margin-left: 50px;
+}
+.wpc-title-q {
+    margin-left: 50px;
+}
+
+.quick-links li {
+    color: #999;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - FOOTER */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.wpc-footer {
+    background-color:  #222930;
+/** Secondary footer **/
+/** Copyright **/
+/** Widgets footer **/
+}
+
+.wpc-footer .wpc-secondary-footer {
+    text-align: center;
+    padding: 76px 0 74px;
+    margin-top: -1px;
+}
+
+.wpc-footer .wpc-secondary-footer .wpc-footer-logo {
+    margin-bottom: 26px;
+}
+
+.wpc-footer .wpc-secondary-footer .wpc-footer-text {
+    font: 14px Lato,sans-serif;
+    color: #e2e2e2;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+    margin-bottom: 17px;
+}
+
+.wpc-footer .wpc-secondary-footer .wpc-footer-social a {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 1px solid #868686;
+    color: #868686;
+    text-align: center;
+    margin-right: 20px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.wpc-footer .wpc-secondary-footer .wpc-footer-social a:hover {
+    background-color: #fe2421;
+    border-color: #fe2421;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wpc-footer .wpc-footer-copyright {
+    font: 400 12px 'Noto Sans',sans-serif;
+    color: #fff;
+    background-color: #242424;
+    padding: 22px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.wpc-footer .wpc-footer-copyright a {
+    margin-left: 5px;
+}
+
+.wpc-footer .wpc-widget {
+    margin-top: 84px;
+    margin-bottom: 43px;
+/** Latest post widget **/
+/** Instagram widget **/
+/** Tags widget **/
+}
+
+.wpc-footer .wpc-widget.contact_widget {
+    margin-right: -3px;
+}
+
+.wpc-footer .wpc-widget .wpc-title-w {
+    font: 700 17px Montserrat,sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    margin-bottom: 20px;
+}
+
+.wpc-footer .wpc-widget .wpc-contant {
+    margin-left: -4px;
+}
+
+.wpc-footer .wpc-widget .wpc-contant .text {
+    font: 400 14px Lato,sans-serif;
+    color: #d0cece;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+    margin-bottom: 40px;
+}
+
+.wpc-footer .wpc-widget .wpc-contant li {
+    font: 400 13px 'Noto Sans',sans-serif;
+    color: #ddd;
+    border-bottom: 1px solid rgba(233,233,233,0.1);
+    padding-bottom: 17px;
+    margin-bottom: 15px;
+    letter-spacing: .4px;
+}
+
+.wpc-footer .wpc-widget .wpc-contant li:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.wpc-footer .wpc-widget .wpc-contant li .fa {
+    color: #fe2421;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post {
+    margin-top: 28px;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post li {
+    border-bottom: 1px solid rgba(233,233,233,0.1);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post li:before,.wpc-footer .wpc-widget .wpc-latest-post li:after {
+    content: "";
+    display: table;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post li:after {
+    clear: both;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post li:last-child {
+    border-bottom: 0;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .img {
+    width: 37%;
+    display: inline-block;
+    float: left;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .img img {
+    display: block;
+    width: 100%;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .link {
+    display: inline-block;
+    font: 700 13px Montserrat,sans-serif;
+    color: #fff;
+    line-height: 19px;
+    letter-spacing: .5px;
+    margin-bottom: 4px;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .post-info-content {
+    font: 400 10px 'Noto Sans',sans-serif;
+    color: #6b6b6b;
+    letter-spacing: .3px;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .post-excerpt {
+    display: none;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .content {
+    width: 63%;
+    float: left;
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 14px;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .content .link {
+    display: inline-block;
+    font: 700 13px Montserrat,sans-serif;
+    color: #fff;
+    line-height: 19px;
+    letter-spacing: .5px;
+    margin-bottom: 4px;
+}
+
+.wpc-footer .wpc-widget .wpc-latest-post .content .post-info-content {
+    font: 400 10px 'Noto Sans',sans-serif;
+    color: #6b6b6b;
+    letter-spacing: .3px;
+}
+
+.wpc-footer .wpc-widget .wpc-instagram {
+    margin-top: 28px;
+}
+
+.wpc-footer .wpc-widget .wpc-instagram figure {
+    width: 50%;
+    height: 94px;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.wpc-footer .wpc-widget .wpc-instagram figure a {
+    display: inline-block;
+}
+
+.wpc-footer .wpc-widget .wpc-instagram figure a img {
+    width: 100%;
+}
+
+.wpc-footer .wpc-widget .wpc-instagram > a {
+    display: inline-block;
+    font: 700 10px 'Noto Sans',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #eb4223;
+    padding: 7px 13px 7px 12px;
+    letter-spacing: .4px;
+    margin-top: 22px;
+}
+
+.wpc-footer .wpc-widget .wpc-instagram > a:hover {
+    background-color: rgba(235, 66, 35, 0.7);
+    text-decoration: none;
+}
+
+.wpc-footer .wpc-widget.widget_tag_cloud {
+    margin-left: -2px;
+    padding-left: 17px;
+}
+
+.wpc-footer .wpc-widget.widget_tag_cloud .tagcloud {
+    margin-top: 29px;
+}
+
+.wpc-footer .wpc-widget.widget_tag_cloud .tagcloud a {
+    display: inline-block;
+    font: 400 11px Lato,sans-serif !important;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 8px 18px 8px 16px;
+    letter-spacing: 1px;
+    margin-left: -1px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.wpc-footer .wpc-widget.widget_tag_cloud .tagcloud a:hover {
+    border: 1px solid #eb4223!important;
+    
+}
+
+.wpc-footer .wpc-widget.widget_tag_cloud .tagcloud a:hover,.wpc-footer .wpc-widget.widget_tag_cloud .tagcloud a:focus {
+    text-decoration: none;
+    color: #ed4223;
+}
+
